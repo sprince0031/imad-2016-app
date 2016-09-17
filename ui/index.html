@@ -1,16 +1,222 @@
 <!doctype html>
 <html>
     <head>
-        <link href="/ui/style.css" rel="stylesheet" />
+    	<title>Siddharth Prince</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="/ui/style.css" rel="stylesheet" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Harmattan" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lora|Mirza|Oswald|Playfair+Display|Aref+Ruqaa" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </head>
-    <body>
-        <div class="center">
-            <img src="https://goo.gl/Bei7ae" class="img-medium"/>
-        </div>
-        <br>
-        <div class="center text-big bold div1">
-            Hi! This is Siddharth. This is my webapp.
-        </div>
+  	<body data-spy="scroll" data-target=".navbar" data-offset="70">
+  		<nav class="navbar navbar-custom navbar-fixed-top">
+		<div class="container-fluid">
+	  	<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="myNavbar">
+		  		<span class="sr-only">Toggle navigation</span>
+		  		<span class="icon-bar"></span>
+      			<span class="icon-bar"></span>
+      			<span class="icon-bar"></span>
+    		</button>
+			<a class="navbar-brand" href="#">Siddharth Prince</a>
+	  	</div>
+	  	<div class="collapse navbar-collapse"  id="navbar-collapse">             
+      		<ul class="nav navbar-nav navbar-left">
+		  	<!--<div id="panel">-->
+				<li><a href="#about" class="hover navlink">About</a></li>
+				<li><a href="#portfolio" class="hover navlink">Portfolio</a></li>
+				<li><a href="#contact" class="hover navlink">Contact Me</a></li>
+		 	<!--</div>-->
+			</ul>
+	  	</div>
+		</div>
+  		</nav>
+		
+  		<div id="realBody">
+			<div class="jumbotron" id="about">
+				<div class="container">
+  	  				<div class="col-md-4">
+						<img src="https://goo.gl/uLIhP3" class="img-responsive dp"> <!-- My Profile Photo -->
+	  					<div class="row">
+		  					<ul class="sociolinks1">
+								<li>
+	  		  						<a href="https://twitter.com/sidprince2931" target="_blank">
+										<i class="fa fa-twitter fa-3x twitter"></i>
+	 		  						</a>
+								</li>
+								<li>
+			  						<a href="https://www.facebook.com/siddharth.prince.73" target="_blank">
+										<i class="fa fa-facebook-official fa-3x fb"></i>
+			  						</a>
+								</li>
+								<li>
+			  						<a href="https://plus.google.com/107216751712630767539" target="_blank">
+										<i class="fa fa-google-plus fa-3x gplus"></i>
+			  						</a>
+								</li>
+		  					</ul>
+						</div>
+	  				</div><br>
+	  				<div class="col-md-8" id="intro">
+						<div class="MyName" id="myName"><i>Siddharth Prince</i></div><hr id="hr1">
+						<p>Hey there! I'm a student currently enrolled in a bachelor's course in Information Technology. I'm passionate about coding and intend to become a successful developer in the near future. I've completed a few online courses in object-oriented programming languages like Python and am currently learning website development and design. I live in the incredibly diverse and beautiful India.</p>
+						<p>When I'm not doing geeky stuff, I spend my time strumming my guitar and humming a tune or sketching a portrait. I also enjoy good movies, reading comics and listening to music. <i class="fa  fa-smile-o"></i></p><br> 
+	  				</div>
+				</div>
+			</div>
+			<div class="main" id="portfolio">
+	  			<div class="container">
+					<h2>Portfolio</h2><hr><br>
+					<div class="row-fluid">
+		  				<div class="col-sm-4">
+							<div class="thumbnail">
+			  					<img src="http://goo.gl/49L3Aw" class="img-responsive">
+			  					<h4>Coming Soon Folks!</h4>
+							</div>
+					    </div>
+		  				<div class="col-sm-4">
+							<div class="thumbnail">
+			  					<img src="http://goo.gl/49L3Aw" class="img-responsive">
+			  					<h4>Coming Soon Folks!</h4>
+							</div>
+		 	 			</div>
+		  				<div class="col-sm-4">
+							<div class="thumbnail">
+			  					<img src="http://goo.gl/49L3Aw" class="img-responsive">
+			  					<h4>Coming Soon Folks!</h4>
+							</div>
+		  				</div>
+					</div>
+	  			</div>
+			</div>
+			<!--<div class="lower" id="contact">
+	  			<div class="container-fluid">
+	    			<h2>Contact Me</h2><hr>
+	    			<div class="col-md-6">
+	  					<form class="contactForm" action="MAILTO:siddharthprince31@gmail.com" method="post" enctype="text/plain">
+	  						<div class="input">
+								<input type="text" name="Name" placeholder="Name"><br>
+								<input type="text" name="Email" placeholder="E-mail Address"><br>
+								<input type="text" name="PhoneNumber" placeholder="Phone Number"><br>
+								<textarea name="Message" rows="4" cols="30" placeholder="Message"></textarea><br>
+							</div>
+							<button type="submit" class="button">Send <i class="fa fa-paper-plane" id="send"></i>
+							</button>
+	  					</form>
+	    			</div>
+	    			<div class="contactButtons">
+	    			<div class="col-md-6">
+	    		<ul class="fontawesome1">
+						<li>
+							<a href="https://www.freecodecamp.com/sprince0031" target="_blank">
+								<!--<img src="https://pbs.twimg.com/profile_images/692531829287567360/ytP7U362.png" class="fcc img-responsive">
+								<span class="fa fa-fire fa-3x fcc">Free Code Camp</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="fontawesome2">
+						<li>
+							<a href="http://codepen.io/sprince0031/" target="_blank">
+								<span class="fa fa-codepen fa-3x codepen"></span>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/sprince0031" target="_blank">
+								<span class="fa fa-github fa-3x git"></span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/siddharth-prince-731b68118?trk=hp-identity-name" target="_blank">
+								<span class="fa fa-linkedin fa-3x linkedin"></span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul class="fontawesome3">
+						<li>
+							<a href="https://www.facebook.com/siddharth.prince.73" target="_blank">
+								<span class="fa fa-facebook-official fa-3x fb"></span>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/sidprince2931" target="_blank">
+								<span class="fa fa-twitter fa-3x twitter"></span>
+							</a>
+						</li>
+						<li>
+							<a href="https://plus.google.com/107216751712630767539" target="_blank">
+								<span class="fa fa-google-plus-square fa-3x gplus"></span>
+							</a>
+						</li>
+					</ul>
+	    	</div>
+	    </div>
+	  </div>	
+	</div>
+  </div>-->
+
+				
+		  <!--<li class="icon">
+    						<a href="javascript:void(0);" onclick="myFunctionMenu()">
+    							<div class="container" onclick="myFunction(this)" id="flip">
+  									<div class="bar1"></div>
+  									<div class="bar2"></div>
+  									<div class="bar3"></div>
+								</div>
+    						</a>
+  						</li>-->
+					
+				<!--<div class="col-xs-6">	
+				<div class="pull-right">
+					<ul class="fontawesome">
+						<li>
+							<a href="https://www.freecodecamp.com/sprince0031" target="_blank">
+								<img src="https://pbs.twimg.com/profile_images/692531829287567360/ytP7U362.png">
+							</a>
+						</li>
+						<li>
+							<a href="http://codepen.io/sprince0031/" target="_blank">
+								<i class="fa fa-codepen fa-2x"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/sprince0031" target="_blank">
+								<i class="fa fa-github fa-2x git"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/siddharth-prince-731b68118?trk=hp-identity-name" target="_blank">
+								<i class="fa fa-linkedin fa-2x linkedin"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/sidprince2931" target="_blank">
+								<i class="fa fa-twitter fa-2x twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/siddharth.prince.73" target="_blank">
+								<i class="fa fa-facebook-official fa-2x fb"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://plus.google.com/107216751712630767539" target="_blank">
+								<i class="fa fa-google-plus fa-2x gplus"></i>
+							</a>
+						</li>
+					</ul>
+				</div>	
+		-->
+
+
         <script type="text/javascript" src="/ui/main.js">
         </script>
     </body>
