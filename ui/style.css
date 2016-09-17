@@ -1,6 +1,8 @@
 body {
     font-family: sans-serif;
-    background-color: lightgrey;
+    background-image: url("https://goo.gl/3fjm6G");
+	background-attachment: fixed;
+	background-size: cover;
     margin-top: 75px;
 }
 
@@ -10,6 +12,7 @@ body {
 
 .text-big {
     font-size: 300%;
+    color: rgba(218,165,32,0.7);
 }
 
 .bold {
@@ -17,7 +20,12 @@ body {
 }
 
 .img-medium {
-    height: 200px;
+    height: 300px;
     border-radius: 50%;
 }
 
+.div1 {
+	padding: 10px 5px;
+	background-color: rgba(0,0,0,0.9);
+	border-radius: 10%;
+}
