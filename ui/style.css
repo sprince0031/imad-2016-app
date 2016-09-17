@@ -1,8 +1,6 @@
 body {
     font-family: sans-serif;
-    background-image: url("https://goo.gl/3fjm6G");
-	background-attachment: fixed;
-	background-size: cover;
+    background-color: lightgrey;
     margin-top: 75px;
 }
 
