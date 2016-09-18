@@ -465,7 +465,8 @@ form .button {
 }
 
 .lower hr .vertline {
-  background-color: #3a3a3a;
+    width: 2px !important;
+    background-color: #3a3a3a;
   
 }
 
