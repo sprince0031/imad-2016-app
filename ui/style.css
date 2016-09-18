@@ -253,7 +253,7 @@ a.navbar-brand {
 }*/
 
 @media screen and (max-width:991px) {
-  .jumbotron img.dp {
+  .jumbotron .dp {
     height: 50%;
     width: 50%; 
   }
