@@ -464,9 +464,9 @@ form .button {
   color: rgb(0,0,0) !important;
 }
 
-lower span .vertline {
+.lower span .vertline {
   display: inline-block;
-  width: 1px;
+  width: 2px;
   height: 75%;
   border-color: rgb(218,165,32);
   
