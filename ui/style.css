@@ -464,7 +464,7 @@ form .button {
   color: rgb(0,0,0) !important;
 }
 
-lower .vertline vr {
+lower .vertline td {
   border-left-width: 3px;
   border-color: rgb(218,165,32);
   max-height: 50%;
