@@ -469,7 +469,6 @@ lower hr .vertline {
   width: 1px;
   size: 500px;
   border-color: rgb(218,165,32);
-  max-height: 50%;
   
 }
 
