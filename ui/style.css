@@ -464,10 +464,10 @@ form .button {
   color: rgb(0,0,0) !important;
 }
 
-lower hr .vertline {
+lower span .vertline {
   display: inline-block;
   width: 1px;
-  size: 500px;
+  height: 500px;
   border-color: rgb(218,165,32);
   
 }
