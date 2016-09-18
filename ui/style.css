@@ -468,7 +468,7 @@ form .button {
   display: inline-block;
   width: 2px;
   height: 75%;
-  border-color: rgb(218,165,32);
+  background-color: rgb(218,165,32);
   
 }
 
