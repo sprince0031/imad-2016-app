@@ -464,6 +464,12 @@ form .button {
   color: rgb(0,0,0) !important;
 }
 
+vr {
+  width: 2px;
+  border-color: rgb(218,165,32);
+  
+}
+
 .lower .contactButtons ul li {
   display: inline-flex;
   text-decoration: none;
