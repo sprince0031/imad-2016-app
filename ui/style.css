@@ -464,11 +464,12 @@ form .button {
   color: rgb(0,0,0) !important;
 }
 
-.lower span .vertline {
+.lower div .vertline {
   display: inline-block;
-  width: 2px;
-  height: 75%;
-  background-color: rgb(218,165,32);
+  width: 0px;
+  height: 100%;
+  border-left-width: 2px;
+  border-color: rgb(218,165,32);
   
 }
 
